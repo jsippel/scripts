@@ -58,7 +58,7 @@ Subject: iPhone Availability
             try:
                smtpObj = smtplib.SMTP('mail.cheekybadger.com',25)
                username = 'jsippel@cheekybadger.com'
-               password = 'falshack'
+               password = 'xxx'
                smtpObj.login(username,password)
                smtpObj.sendmail(sender, receivers, message)         
                print "Successfully sent email"
